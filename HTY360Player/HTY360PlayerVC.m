@@ -117,6 +117,7 @@ static void *AVPlayerItemStatusContext = &AVPlayerItemStatusContext;
 
 - (void)viewWillAppear:(BOOL)animated {
     [self updatePlayButton];
+    [self play]; //auto play
 }
 
 #pragma mark - video communication

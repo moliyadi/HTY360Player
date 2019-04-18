@@ -35,7 +35,9 @@
 }
 
 - (IBAction)playOnlineURL:(UIButton *)sender {
-    NSString *defaultURLString = @"http://d8d913s460fub.cloudfront.net/krpanocloud/video/airpano/video-1920x960a.mp4";
+    //NSString *defaultURLString = @"http://d8d913s460fub.cloudfront.net/krpanocloud/video/airpano/video-1920x960a.mp4";
+    NSString *defaultURLString = @"http://192.166.62.107:8887/4K_superCar.mp4";
+    //NSString *defaultURLString = @"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8";
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Play Online URL"
                                                                    message:@"Enter the URL"
                                                             preferredStyle:UIAlertControllerStyleAlert];
