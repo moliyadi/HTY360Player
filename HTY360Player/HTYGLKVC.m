@@ -11,8 +11,10 @@
 #import "HTY360PlayerVC.h"
 #import <CoreMotion/CoreMotion.h>
 
-#define MAX_OVERTURE 95.0
-#define MIN_OVERTURE 25.0
+//#define MAX_OVERTURE 95.0
+//#define MIN_OVERTURE 25.0
+#define MAX_OVERTURE 100.0 //此为缩小限制，100表示默认视频比例
+#define MIN_OVERTURE 5.0 //此为放大限制
 #define DEFAULT_OVERTURE 85.0
 #define ES_PI  (3.14159265f)
 #define ROLL_CORRECTION ES_PI/2.0
